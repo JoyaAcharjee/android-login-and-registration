@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#16508179"
+
+
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#D58E8F96"
+            android:gravity="center"
+            >
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:layout_marginTop="-90dp"
+            />
+
+
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="casual"
+            android:paddingLeft="87dp"
+            android:text="  No account?   SIGN UP"
+            android:textColor="#140808"
+
+            android:textSize="20dp">
+
+
+        </TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editbg3"
+            android:fontFamily="casual"
+            android:hint="Enter the Username"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:textColorHint="#967F7F"
+            android:textColor="#967F7F"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/editbg3"
+            android:fontFamily="casual"
+            android:hint="Enter the Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+
+            android:textColorHint="#967F7F"
+            android:textColor="#967F7F"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:fontFamily="casual"
+            android:paddingRight="50dp"
+            android:text="Forget Password?"
+
+            android:textSize="20dp"
+            android:textColor="#140808"
+
+            >
+
+        </TextView>
+
+        <Button
+            android:layout_width="142dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button4"
+            android:fontFamily="casual"
+            android:text="Log in"
+            android:textColor="#000000"
+            android:textSize="20sp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

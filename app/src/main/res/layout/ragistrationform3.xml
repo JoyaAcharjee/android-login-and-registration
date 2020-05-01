@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#16508179">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="40dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:src="@drawable/clients" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:text="Username :"
+            android:textColor="#140808"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"
+            ></TextView>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editbg"
+            android:fontFamily="casual"
+            android:padding="5dp"
+            android:textColor="#0F0606"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="casual"
+            android:text="Email :"
+            android:textColor="#140808"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"></TextView>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editbg"
+            android:fontFamily="casual"
+            android:padding="5dp"
+            android:textColor="#0F0606"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="casual"
+            android:text="Password :"
+            android:textColor="#140808"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"></TextView>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editbg"
+            android:fontFamily="casual"
+            android:padding="5dp"
+            android:textColor="#0F0606"
+
+            android:textSize="20dp" />
+
+
+        <LinearLayout
+
+            android:layout_width="250dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:paddingLeft="25dp"
+                android:text="Gender :"
+                android:textColor="#140808"
+                android:textSize="20dp"></TextView>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="152dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="0dp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:paddingLeft="25dp"
+                android:text="Address :"
+                android:textColor="#140808"
+                android:textSize="20dp"></TextView>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="152dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="0dp"
+
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="142dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button4"
+            android:fontFamily="casual"
+            android:text="Sign in"
+            android:textColor="#000000"
+            android:textSize="20sp"
+
+            />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
